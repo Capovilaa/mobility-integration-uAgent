@@ -19,7 +19,8 @@ agent = Agent(
 fund_agent_if_low(agent.wallet.address())
  
 # get from .env private key
-OPENCHARGEMAP_API_KEY = os.environ.get("OPENCHARGEMAP_API_KEY", "")
+# OPENCHARGEMAP_API_KEY = os.environ.get("OPENCHARGEMAP_API_KEY", "")
+OPENCHARGEMAP_API_KEY = "c7307247-cf3d-4708-a280-8ede18bb1b47"
 
 # assert that has the key, else show an error 
 assert (

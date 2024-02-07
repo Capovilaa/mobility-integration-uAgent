@@ -21,7 +21,8 @@ geoapi_parking_protocol = Protocol("Geoapi CarParking")
 fund_agent_if_low(agent.wallet.address())
 
 # get private key from .env
-GEOAPI_API_KEY = os.getenv("GEOAPI_API_KEY", "")
+# GEOAPI_API_KEY = os.getenv("GEOAPI_API_KEY", "")
+GEOAPI_API_KEY = "2c6dd46dd9ec4a76ad352324baf74e16"
 
 # grant that this private key exists 
 assert GEOAPI_API_KEY, "GEOAPI_API_KEY environment variable is missing from .env"
